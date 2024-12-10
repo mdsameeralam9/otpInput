@@ -55,7 +55,6 @@ const OtpInput: React.FC<OtpInputProps> = ({ inputLength,inputType,inputStyle,in
           style={inputStyle} 
           className={inputClass} 
           ref={(input) => (inputRef.current[index] = input)}
-          
           />
       ))}
     </div>

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import OtpInput from './components/OtpInput/main'
 
 function App() {
-  
+  const [isOptInput, setIsOptInput] = useState(false)
 
   return (
    <OtpInput 
