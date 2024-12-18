@@ -5,14 +5,23 @@
     gap: 1rem;
 }
 
-.submitBtn{
-    background-color: #0077cc;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    transition: all 0.3s ease;
+._input{
+
+}
+
+._input:focus{
+    border: 1px solid #0077cc;
+    outline:  1px solid #0077cc;
+}
+
+.resendOtpwrapper{
     margin-top: 1rem;
-    margin-left: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timer{
+    font-size: 2rem;
+    color: #0077cc;
 }
